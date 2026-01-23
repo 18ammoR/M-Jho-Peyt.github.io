@@ -63,8 +63,7 @@ header h1, header h2 {
 
 .card:hover {
     transform: translateY(-10px) scale(1.05);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
-
+    box-shadow: 0 15px 35px rgba(237, 58, 151, 0.3);
 }
 
 .last:hover{
