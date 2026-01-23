@@ -27,6 +27,7 @@ header h1, header h2 {
     height: 380px;
     background: pink;
     border-radius: 20px;
+    border: 2px solid rgb(241, 180, 255);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 
     display: flex;
@@ -39,6 +40,9 @@ header h1, header h2 {
 }
 @keyframes mymove {
   50% {box-shadow: 10px 20px 30px rgb(241, 86, 177);}
+}
+.ln{
+    color: rgb(241, 180, 255); 
 }
 
 .card img {
@@ -63,11 +67,11 @@ header h1, header h2 {
 
 .card:hover {
     transform: translateY(-10px) scale(1.05);
-    box-shadow: 0 15px 35px rgba(237, 58, 151, 0.3);
+    box-shadow: 0 15px 35px rgba(255, 83, 172, 0.3);
 }
 
 .last:hover{
-    box-shadow: 0 15px 35px rgba(237, 58, 151, 0.3);
+    box-shadow: 0 15px 35px rgba(255, 83, 172, 0.3);
     transform: translateY(-10px) scale(1.10);
 }
 
