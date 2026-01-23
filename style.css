@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    text-shadow: 2px 2px 5px rgb(250, 92, 173);
     background: linear-gradient( 90deg, rgba(255, 224, 237, 1) 6%, rgba(248, 151, 191, 1) 43%, rgba(249, 140, 185, 1) 70%,  rgba(254, 93, 159, 1) 100%);
 }
 
@@ -42,7 +41,8 @@ header h1, header h2 {
   50% {box-shadow: 10px 20px 30px rgb(241, 86, 177);}
 }
 .ln{
-    color: rgb(241, 180, 255); 
+   color: rgb(255, 255, 255); 
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
 }
 
 .card img {
@@ -58,10 +58,12 @@ header h1, header h2 {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0 5px;
+    text-shadow: 2px 2px 5px rgb(250, 92, 173);
 }
 
 .id {
     font-size: 16px;
+    text-shadow: 2px 2px 5px rgb(250, 92, 173);
     margin: 0;
 }
 
