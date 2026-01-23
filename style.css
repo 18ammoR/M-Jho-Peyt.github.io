@@ -34,6 +34,10 @@ header h1, header h2 {
     padding: 20px;
 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px rgb(241, 86, 177);}
 }
 
 .card img {
