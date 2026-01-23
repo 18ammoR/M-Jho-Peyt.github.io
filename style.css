@@ -67,6 +67,11 @@ header h1, header h2 {
 
 }
 
+.last:hover{
+    box-shadow: 0 15px 35px rgba(237, 58, 151, 0.3);
+    transform: translateY(-10px) scale(1.10);
+}
+
 footer {
     text-align: center;
     color: white;
